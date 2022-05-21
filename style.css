@@ -233,7 +233,7 @@ footer
 	height:75vh;
 	width:80%;
 	display:inline-block;
-	background:url(images/zebras.jpg) center;
+	background:url(images/zebras_compressed.jpg) center;
 	background-size:100%;
 }
 .overlay
