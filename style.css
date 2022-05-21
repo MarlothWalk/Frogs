@@ -1,0 +1,474 @@
+section
+{
+	width:100%;	
+}
+body
+{
+	background:#cfcfcf;
+}
+button
+{
+	outline:none;
+	border:none;
+}
+.hero
+{
+	height:100vh;	
+	background:url('images/header_compressed.jpg') center center;		
+	background-size:cover;
+	box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.45);
+}
+.side
+{
+	overflow:hidden;
+}
+.side h2
+{
+	display:inline-block;
+}
+/* Font styling */
+p
+{
+	font-size: 1.2em;
+	font-family: Helvetica;
+}
+h1
+{
+	color:white;
+	font-family:'Roboto', Arial;
+	font-size:5em;
+	text-align:Center;
+	padding-top:0.1em;
+	padding-bottom:0.7em;
+}
+h2
+{
+	color:white;
+	font-family:'Roboto', Arial;
+	font-size:4.5em;
+	text-align:center;
+	margin-left:70vw;
+	transform:translate(-50%,0);
+}
+h3
+{
+	font-size:2em;
+	font-family:'Roboto',Arial;
+}
+button
+{
+	font-family:'Open Sans', Arial;
+	font-size:1em;
+	font-weight:bold;	
+}
+footer p
+{
+	color:white;
+	text-align:center;
+	padding:1em;
+}
+.thankyou p
+{
+	color:white;
+	padding:1em;
+}
+ul li
+{
+	font-family:Arial;
+	font-size:1.2em;
+}
+/* ----------- */
+p.end
+{
+	color:white;
+	position:absolute;
+	bottom:0.2em;
+	width:100%;
+	text-align:center;	
+}
+.thanks
+{
+	background:#cfcfcf;
+	color: black;	
+	padding-bottom:2em;	
+}
+.thanks p
+{
+	padding-top:1em;	
+	padding-left:1em;
+	margin:0;
+}
+footer
+{
+	background:rgb(58,58,58);
+	width:100%;
+	height:70px;
+}
+.thankyou
+{
+	background:rgb(58,58,58);
+}
+.cards
+{
+	text-align:center;
+}
+.card
+{	
+	position:relative;
+	width: 80%;
+	display:inline-block;	
+	background:white;
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+	margin-bottom: 1em;
+}
+.card img
+{
+	float:left;
+	width:50%;
+}
+.card .info
+{
+	float:left;
+	width:50%;
+	text-align:left;
+}
+.card .info .content
+{
+	padding:1em;
+}
+.card .info .content p
+{
+	font-size: 1.2vw;
+}
+.card .info h2
+{
+	padding-bottom:0.5em;
+}
+.card .info .buttons
+{
+	padding-top:1em;	
+	padding-left:1em;
+	position:absolute;
+	bottom:0;
+	padding-bottom:1vw;
+	left:50%;
+}
+.card .info .buttons button
+{
+	outline:none;
+	border:none;
+	padding:0.5em 1.5em 0.5em 1.5em;
+}
+.play::before
+{
+	font: normal normal normal 1.5em/1 FontAwesome;	
+	padding:0;
+	padding-right:0.4em;
+	margin:0;
+	vertical-align:sub;	
+}
+.play
+{
+	padding-left:1em !important;
+	background:rgb(255,144, 51); 	
+	font-family:"Arial" !important;
+	font-weight:bold !important;
+}
+.play:hover
+{
+	opacity:1 !important;
+	background:rgb(255,174, 81);
+	cursor: pointer;
+}
+.youtube
+{	
+	background:rgb(228, 20, 10);
+	color: white;	
+	padding:0.5em 1em !important;	
+	padding-left:2.5em;
+	line-height:100%;
+	font-weight:bold;
+	font-family:"Arial" !important;
+}
+.youtube::before
+{
+	font: normal normal normal 1.5em/1 FontAwesome;	
+	padding:0;
+	padding-right:0.2em;
+	margin:0;
+	vertical-align:sub;	
+}
+.youtube:hover
+{
+	background:rgb(255, 50, 40);
+	cursor:pointer;
+}
+.jeanne, .frogging, .zebras
+{
+	text-align:center;
+	padding-bottom:1em;
+}
+.jeanneimg
+{
+	position:relative;
+	height:90vh;
+	width:50vh;	
+	display:inline-block;
+	background:url(images/jeanne_compressed.jpg) center;
+	background-size:100%;
+}
+.froggingimg
+{
+	position:relative;
+	height:75vh;
+	width:80%;
+	display:inline-block;
+	background:url(images/searching_compressed.jpg) center;
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+.zebrasimg
+{
+	position:relative;
+	height:75vh;
+	width:80%;
+	display:inline-block;
+	background:url(images/zebras.jpg) center;
+	background-size:100%;
+}
+.overlay
+{
+	background: rgba(0,0,0,0.5);
+	color: white;
+	width:100%;
+	position:absolute;
+	bottom:0;
+	left:0;	
+}
+.overlay p
+{
+	padding:1em;
+	text-align:left;
+}
+.outro
+{
+	background:white;
+	text-align:center;
+	padding-bottom:1em;
+}
+#poem
+{
+	width: 300px;
+	display:inline-block;
+	padding-top: 1em;
+	text-align:center;
+}
+.outro p
+{
+	text-align:center;
+}
+.outro .tortoise
+{
+	width: 4em;
+	position:relative;
+	left:59px;
+}
+.outro .giraffe
+{
+	width: 6em;
+	position:relative;
+	right: 43px;
+    bottom: 65px;
+    margin-bottom: -65px;
+}
+.outro #poem .animals
+{	
+	width:100%;
+}
+.outro #poem img
+{
+	padding:0;
+}
+.outro #poem p
+{
+	width:100%;	
+	font-size: 1.3em;
+	font-family:Oregano;
+}
+.outro h1
+{
+	color:black;
+	font-size: 2.4em;
+	padding-top: 6vw;
+}
+.fa {
+  padding: 0.5em;  
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;  
+  vertical-align:top;
+}
+.fa::before{
+	font-size:1.7em;
+}
+.buttons
+{
+	padding:1em;
+}
+ul li::before
+{
+	content:"- ";
+}
+ul
+{
+	padding-top:0.5em;
+	padding-left:2.5em;
+}
+ul.bankdetails li::before
+{
+	content:'';
+	padding-left:0.8em;
+}
+.outro h1
+{
+	font-family:'Oregano', Arial;
+}
+@media screen and (max-width: 800px) {
+	.hero
+	{
+		background-position:-10vw;
+	}
+	.hero h1
+	{
+		text-align:center;
+		font-size:3em;		
+	}
+	.hero h2
+	{
+		margin:0;
+		padding-top:10vh;
+		transform:none;
+		font-size:10vw;
+	}
+	.side h2
+	{
+		display:block;
+	}
+	.hero .end
+	{
+		font-size:0.8em;
+	}
+	.card
+	{
+		width:80%;
+	}
+	.card img
+	{
+		float:none;
+		width:100%;
+		height:unset;
+	}
+	.card .info
+	{
+		float:none;
+		width:100%;
+	}
+	.card .info .buttons
+	{
+		position:relative;
+		bottom:0;
+		left:0;
+		padding:0;
+		width:100%;
+		float:none;
+	}
+	.card h2
+	{
+		text-align:center;
+	}
+	.card .info .content p
+	{
+		font-size:1em !important;
+	}
+	.froggingimg
+	{
+		width:100%;
+		height:70vw;
+	}
+	.zebrasimg
+	{
+		width:100%;
+		height:60vw;
+	}
+	.froggingimg .overlay p,
+	.zebrasimg .overlay p
+	{
+		font-size:5vw;		
+	}
+	footer
+	{
+		height:unset;
+	}
+}
+@media screen and (max-width: 500px) {
+	.buttons
+	{
+		width: 100%;
+	}
+	.buttons .play, .buttons .youtube
+	{
+		width: 45%;
+		font-size:3.5vw;
+		padding:		
+	}
+}
+.languages
+{
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+}
+.languagepicker
+{
+	float:right;
+	outline:none;
+	background:none;
+	color:white;
+	font-family:'Open Sans', Arial;
+	font-weight:bold;
+	padding:0.5em 1em;	
+	border:2px solid white;
+	margin:1em;
+	appearance:none;
+	text-align:center;
+	cursor:pointer;
+}
+.languagepicker:hover
+{
+	background:white;
+	color:black;
+}
+.languagepicker option
+{	
+	font-size:1em;
+	color:black !important;
+	font-weight:bold;
+}
+.languagepickercontainer
+{
+	width:100%;
+	display:inline-block;
+}
+.ewtlogo
+{
+	float:right;
+	width:150px;	
+}
