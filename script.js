@@ -32,18 +32,7 @@ function setYoutubeLinks()
 
 	})
 }
-function setLangLinks()
-{
-
-	$('.languagepicker').change(function() {		
-		lang = $(this).val()
-		console.log(lang)
-		link = "../"+lang+"/index.html"
-		window.location.href = link
-	})
-}
 $(document).ready(() => {
-	setLangLinks()
 	loadCalls()
 	setYoutubeLinks()
 	$('button.play').click(function() { 
